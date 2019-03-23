@@ -39,6 +39,7 @@ class UserController
 
     public function actionLogin()
     {
+
         $email = '';
         $password = '';
         if (isset($_POST['submit'])) {
